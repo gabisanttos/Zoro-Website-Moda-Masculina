@@ -2,7 +2,7 @@
 
  # Projeto zoro - Website de roupas masculinas 
 📌 Bem-vindo ao repositório do projeto Zoro, uma loja de roupas masculinas desenvolvida como parte de um projeto acadêmico na disciplina de Desenvolvimento Web. 
-# Caracteristicas principais
+# Características Principais
 - **Responsividade:** Nosso site é completamente responsivo, garantindo uma experiência consistente em diferentes dispositivos.
 - **Acessibilidade em Libras:** Implementamos suporte em Libras, seguindo as diretrizes governamentais para tornar o site acessível a um público mais amplo.
 - **Carrinho de Compras Funcional:** A função de adicionar ao carrinho está totalmente operacional, proporcionando uma experiência de compra interativa.
