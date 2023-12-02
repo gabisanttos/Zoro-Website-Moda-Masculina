@@ -4,7 +4,7 @@ include 'conexao.php';
 // Verifique se a conexão foi bem-sucedida
 if($db){
     // Exclua o registro com o ID especificado
-  $query = "DELETE FROM cadusuario WHERE nome = 'Dorgi2'";
+  $query = "DELETE FROM cadusuario WHERE nome = '13'";
 
   // Execute a consulta SQL
   $db->exec($query);
