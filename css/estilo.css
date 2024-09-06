@@ -380,31 +380,32 @@ header{
 .rating i{
     color: var(--clr-blue); /* Azul para as estrelas */
 }  
-/* Login page */   
-.login{
-    box-shadow: 2px 2px 6px rgba(79, 124, 168, 0.671); 
-    background-color: rgba(255,255,255,0.13);
-    backdrop-filter: blur(10px);
+/* Login e cadastro page */   
+.login, .cadastro{
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     padding: 80px;
-    border-radius: 15px;
+    background-color: #f4f8f8; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
-input{
+input {
     padding: 14px;
-    border: none;
     outline: none;
     font-size: 14px; 
-    width: 90%;
-    border-color: #101010;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #ebe9e9;
 } 
+
 .corlogin{ 
-    background-image: linear-gradient(45deg, #046bcc, white);
+    background-image: linear-gradient(45deg, #599dd8, white);
 }
-.enviar1{
+.enviar1, .enviar2{
     background-color: rgb(43, 44, 44); 
     color: #f2f2f7;
     border: none;
@@ -413,17 +414,21 @@ input{
     border-radius: 10px;
     font-size: 14px;
     cursor: pointer;
-}
+} 
+
 button:hover{
     background-color: rgb(0, 119, 255);
 }
-#cadastro:hover{
+#cadastro:hover {
   background-color: rgb(0, 119, 255);
 } 
-.login h1{ 
-    text-align: center; 
-    margin-bottom: 10px; 
-    font-family: Arial, Helvetica, sans-serif;
+
+.login h1, .cadastro h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold; 
+    text-align:center; 
+    font-family: Arial, Helvetica, sans-serif; 
 }
 .p-login{
     color: var(--clr-light-black);
@@ -441,43 +446,7 @@ button:hover{
 .a-login:hover{
     color: rgb(0, 119, 255);
 }
-/* Cadastre-se page */
-.cadastro{
-    box-shadow: 2px 2px 6px rgba(79, 124, 168, 0.671); 
-    background-color: rgba(255,255,255,0.13);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    padding: 80px;
-    border-radius: 15px;
-    color: var(--clr-light-black);
-} 
-.cadastro h1{ 
-    font-family: Arial, Helvetica, sans-serif;
-}
-input{
-    padding: 14px;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    width: 100%
-}
-.enviar2{
-    background-color: rgb(43, 44, 44);
-    padding: 14px 60px; 
-    color: #f2f2f7;
-    border: none;
-    padding: 14px;
-    width: 100%;
-    border-radius: 10px;
-    font-size: 14px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgb(0, 119, 255);
-} 
+
 /* Cart (carrinho) css */ 
 .cart-section{
     margin: auto;
